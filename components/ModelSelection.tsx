@@ -9,8 +9,9 @@ function ModelSelection() {
   const { data: model, mutate: setModel } = useSWR("model", {
     fallbackData: "text-davinci-003",
   });
+
   return (
-    <div>
+    <div className="mt-2">
       <Select
         className="mt-2"
         options={models?.modelOptions}
