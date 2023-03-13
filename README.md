@@ -1,3 +1,3 @@
 # ChatGPT Clone
 
-Nextjs 13, Tailwindcss, Firebase
+React, Nextjs 13, Tailwindcss, Firebase
