@@ -4,18 +4,18 @@ import Image from "next/image";
 
 function Login() {
   return (
-    <div className="bg-[#11A37F] h-screen flex flex-col items-center justify-center text-center">
+    <div className="bg-white h-screen flex flex-col items-center justify-center text-center">
       <Image
-        src="https://links.papareact.com/2i6"
+        src="https://aleph-m-2.s3.amazonaws.com/aleph-logo.png"
         width={300}
         height={300}
         alt="logo"
       />
       <button
         onClick={() => signIn("google")}
-        className="text-white font-bold text-3xl animate-pulse"
+        className="text-[#800080] font-bold text-3xl animate-pulse"
       >
-        Sign in to use ChatGPT
+        Sign in to use Aleph
       </button>
     </div>
   );
